@@ -10,7 +10,7 @@ def VND(number):
     money = ''
     for i in range(len(stringNumber)):
         if (len(stringNumber) - i) % 3 == 0 and i != 0:
-            money += ','
+            money += '.'
         money+=stringNumber[i]
     money += 'đ'
     return money
